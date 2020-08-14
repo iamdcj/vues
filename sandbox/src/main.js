@@ -3,6 +3,11 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
+// Create new vue instance
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  el: '#app',
+  data: {
+    title: "DCJ's Vue Sandbox"
+  },
+  render: h => h(App)
+})
