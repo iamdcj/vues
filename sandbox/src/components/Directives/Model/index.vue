@@ -15,5 +15,10 @@
 <script>
 export default {
   name: "Model",
+  data() {
+    return {
+      name: ""
+    }
+  }
 };
 </script>
