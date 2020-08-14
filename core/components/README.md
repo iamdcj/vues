@@ -1,0 +1,5 @@
+# Components
+
+
+#### The : colon
+If a colon is prefixed to an attribute it will become dynamic, i.e. it will populate its value from the component's data source.
