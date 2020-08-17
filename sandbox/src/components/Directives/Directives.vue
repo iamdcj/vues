@@ -8,6 +8,7 @@
     <For />
     <Model />
     <IfShow />
+    <Bind />
 
     
   </section>
@@ -18,6 +19,7 @@
 import For from './For'
 import Model from './Model'
 import IfShow from './IfShow'
+import Bind from './Bind'
 
 export default {
   name: 'Directives',
@@ -27,6 +29,7 @@ export default {
   components: {
     For,
     Model,
+    Bind,
     IfShow
   }
 }
