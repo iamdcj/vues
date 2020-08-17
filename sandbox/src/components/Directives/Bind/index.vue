@@ -2,7 +2,7 @@
   <div>
     <h3>v-bind ( : )</h3>
     <p>
-      The v-bind directive will bind JS to the HTML to allow for things like:
+      The v-bind directive will bind JS to the HTML, evaluating the expressions with the attribute values, allowing for things like:
     </p>
 
     <ul>
