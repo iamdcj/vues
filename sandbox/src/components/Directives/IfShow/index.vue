@@ -16,11 +16,15 @@
       <h3>v-show</h3>
       <p>
         
-        This directive will show a component if the condition is truthy, or hide if the condition is falsey. <strong>The component remains in the DOM</strong>
+        This directive will show a component if the condition is truthy, or hides it if the condition is falsey. <strong>The component remains in the DOM</strong>, but when hidden if will have a <code>display: none;</code> inline applied to the chosen element.
       </p>
 
       <p>It is useful if the user might repeatedly toggle the visibilty of an element</p>
       
+      <button v-on:click="toggleVisibility">{{visible ? 'Hide' : 'Show' }} content</button>
+
+      <p v-show="visible">HOLA MUNDIAL!</p>
+
     </div>
   </div>
 </template>
@@ -30,12 +34,16 @@ export default {
   name: "IfShow",
   data() {
     return {
-      mounted: true
+      mounted: true,
+      visible: true
     };
   },
   methods: {
     toggleMounted() {
       this.mounted = !this.mounted;
+    },
+    toggleVisibility() {
+      this.visible = !this.visible;
     }
   }
 };
