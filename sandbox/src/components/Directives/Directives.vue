@@ -7,6 +7,7 @@
 
     <For />
     <Model />
+    <IfShow />
 
     
   </section>
@@ -16,6 +17,7 @@
 
 import For from './For'
 import Model from './Model'
+import IfShow from './IfShow'
 
 export default {
   name: 'Directives',
@@ -24,7 +26,8 @@ export default {
   },
   components: {
     For,
-    Model
+    Model,
+    IfShow
   }
 }
 </script>
