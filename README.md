@@ -3,7 +3,9 @@
 A collection of snippets and text related to my learnings of the Vue library
 
 ## Overview
-[Vue](https://vuejs.org/v2/guide/) is a declarative framework primarily concerned with creating component-based user interfaces. The creator essentially cherry-picked all of his favourite parts of popular frameworks suchs as React and Angular, and put them into the Vue framework.
+[Vue](https://vuejs.org/v2/guide/) is a declarative, reactive framework primarily concerned with creating component-based user interfaces. 
+
+The creator essentially cherry-picked all of his favourite parts of popular frameworks suchs as React and Angular, and put them into the Vue framework.
 
 
 ## Core
