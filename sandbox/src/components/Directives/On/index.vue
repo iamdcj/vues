@@ -12,6 +12,7 @@
 
     <ul>
       <li>v-on:click</li>
+      <li>v-on:mousemove</li>
       <li>v-on:mouseover</li>
       <li>v-on:mouseleave</li>
       <li>v-on:keyup</li>
