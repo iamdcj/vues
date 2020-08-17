@@ -9,6 +9,7 @@
     <Model />
     <IfShow />
     <Bind bannerSrc="https://picsum.photos/200 "/>
+    <HTML bannerSrc="https://picsum.photos/200 "/>
 
     
   </section>
@@ -20,6 +21,7 @@ import For from './For'
 import Model from './Model'
 import IfShow from './IfShow'
 import Bind from './Bind'
+import HTML from './HTML'
 
 export default {
   name: 'Directives',
@@ -30,7 +32,8 @@ export default {
     For,
     Model,
     Bind,
-    IfShow
+    IfShow,
+    HTML
   }
 }
 </script>
