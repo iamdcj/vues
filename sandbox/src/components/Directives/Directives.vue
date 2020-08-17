@@ -8,7 +8,7 @@
     <For />
     <Model />
     <IfShow />
-    <Bind />
+    <Bind bannerSrc="https://picsum.photos/200 "/>
 
     
   </section>

@@ -8,7 +8,7 @@
     <ul>
       <li>Dynamic Classes</li>
       <li>Dynamic Styles</li>
-      <li>State-baseed attribute values, e.g. image source</li>
+      <li>State or Prop based attribute values, e.g. image source</li>
       <li>Component props</li>
     </ul>
 
@@ -69,6 +69,31 @@
       </div>
     </div>
 
+    <div>
+      <h4>Dynamic attribute values</h4>
+      <p>
+        Applying the bind shorthand(:) before a particular attribute will allow for binding-based values - we can store a value in the state/props, e.g. the source of an image
+      </p>
+
+      <figure>
+        <img :src="imageSrc" />
+        <figcaption v-pre>source comes from {{imageSrc}} in the state</figcaption>
+      </figure>
+      
+
+      <figure>
+        <img :src="bannerSrc" />
+        <figcaption v-pre>source comes from {{bannerSrc}} passed down as a prop</figcaption>
+      </figure>
+      
+
+      <div>
+        <h5>State</h5>
+        <code>
+          <pre>{{ $data }}</pre>
+        </code>
+      </div>
+    </div>
     
   </div>
 </template>
@@ -77,13 +102,13 @@
 export default {
   name: "Bind",
   props: {
-    msg: String,
+    bannerSrc: String,
   },
   data() {
     return {
       isActive: false,
       fontSize: 10,
-      imageSrc: ""
+      imageSrc: "https://picsum.photos/400/300"
     };
   },
 };
