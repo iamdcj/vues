@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-    {{title}}
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Directives />
+    <header>
+      {{title}}
+    </header>
+    <main>
+      <Directives />
+    </main>
   </div>
 </template>
 
@@ -28,8 +31,18 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+#app > header {
+  display: grid;
+  width: 100%;
+  background-color: #42b983;
+  padding: 10px;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto
 }
 </style>
