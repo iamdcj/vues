@@ -3,8 +3,7 @@
     <h2>Methods in Vue</h2>
     <p>
       Each Vue component is its own instance, and this instance can have
-      functions attached to it, these functions are methods - functions that are
-      attached to an object
+      functions attached to it, these functions are known as methods - functions that are attached to a wrapping object.
     </p>
 
     <code>
