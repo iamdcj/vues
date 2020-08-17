@@ -5,17 +5,20 @@
     </header>
     <main>
       <Directives />
+      <Methods />
     </main>
   </div>
 </template>
 
 <script>
-import Directives from './components/Directives/Directives.vue'
+import Directives from './components/Directives'
+import Methods from './components/Methods'
 
 export default {
   name: 'App',
   components: {
-    Directives
+    Directives, 
+    Methods
   },
   data() {
     console.log();
@@ -39,6 +42,12 @@ export default {
   width: 100%;
   background-color: #42b983;
   padding: 10px;
+}
+
+pre {
+  display: inline-flex;
+  padding: 5px;
+  background-color: lightgrey;
 }
 
 main {
