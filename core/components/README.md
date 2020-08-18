@@ -7,6 +7,7 @@ Components are:
 
 - Resuable - they can be dropped anywhere in the application
 - Encapsulated - they contain there own markup and functionality, without causing issues to the surrounding parts.
+- Isolated - each component has its own isolated scope.
   
 
 ## Template

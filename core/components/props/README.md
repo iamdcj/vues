@@ -19,3 +19,13 @@ Vue.component('Title', {
 ### Type Checking
 Vue provides a built-in mechanism for declaring a type for a prop, and will validate if the provided prop isn't of the stated type.
 
+
+### Case Conversion
+Vue will automatically convert kebab-case props, e.g. `<Component my-prop="test" />` to camelCase props in the component;
+
+```
+Vue.component('Component', {
+  props: ['myProp']
+  template: '<h1>{{myProp}}</h1>'
+})
+```
