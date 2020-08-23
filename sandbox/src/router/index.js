@@ -8,6 +8,10 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/directives',
+    component: null
+  },
+  {
+    path: '/directives',
     component: Directives
   }
 ]
