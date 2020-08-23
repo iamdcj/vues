@@ -14,7 +14,10 @@ const routes = [
     props: true,
     children: [{
       path: 'test',
-      component: Test
+      components: {
+        default: Test,
+        second: Methods
+      }
     }]
   },
   {
