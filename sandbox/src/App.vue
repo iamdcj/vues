@@ -2,7 +2,6 @@
   <div id="app">
     <header>
       {{title}}
-
       <router-view></router-view>
     </header>
     <main>
@@ -14,11 +13,10 @@
 export default {
   name: 'App',
   data() {
-    console.log();
     return {
       title: this.$root.title
     }
-  }
+  },
 }
 </script>
 
