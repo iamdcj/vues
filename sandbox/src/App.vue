@@ -3,7 +3,8 @@
     <header>
       {{title}}
       <button @click="toRoute('/directives')">Directives</button>
-      <button @click="toRoute('/methods')">Methods</button>
+      <router-link to="/methods">Methods</router-link>
+      <router-link :to="{ name: 'test', params: { name: 'david' }}">Methods</router-link>
       <router-view></router-view>
     </header>
     <main>

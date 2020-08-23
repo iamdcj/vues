@@ -12,7 +12,8 @@ const NotFound = () => <div>Not Found</div>
 
 const routes = [
   {
-    path: '/test',
+    path: '/test/:name',
+    name: 'test',
     component: Test,
     props: true,
     children: [{
