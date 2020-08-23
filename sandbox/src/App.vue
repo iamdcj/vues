@@ -2,24 +2,17 @@
   <div id="app">
     <header>
       {{title}}
+
+      <router-view></router-view>
     </header>
     <main>
-      <Directives />
-      <Methods />
     </main>
   </div>
 </template>
 
 <script>
-import Directives from './components/Directives'
-import Methods from './components/Methods'
-
 export default {
   name: 'App',
-  components: {
-    Directives, 
-    Methods
-  },
   data() {
     console.log();
     return {
