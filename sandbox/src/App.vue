@@ -2,6 +2,8 @@
   <div id="app">
     <header>
       {{title}}
+      <button @click="toRoute('/directives')">Directives</button>
+      <button @click="toRoute('/methods')">Methods</button>
       <router-view></router-view>
     </header>
     <main>
@@ -15,6 +17,11 @@ export default {
   data() {
     return {
       title: this.$root.title
+    }
+  },
+  methods: {
+    toRoute (route) {
+      this.$router.push(route);
     }
   },
 }
