@@ -4,7 +4,7 @@
       {{title}}
       <button @click="toRoute('/directives')">Directives</button>
       <router-link to="/methods">Methods</router-link>
-      <router-link :to="{ name: 'test', params: { name: 'david' }}">Methods</router-link>
+      <router-link :to="{ name: 'test', params: { name: 'david' }}">Test</router-link>
       <router-view></router-view>
     </header>
     <main>
