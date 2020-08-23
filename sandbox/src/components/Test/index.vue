@@ -1,7 +1,9 @@
 <template>
   <div>
+    Test Component
     {{name}}
     {{routeName}}
+    <router-view></router-view>
   </div>
 </template>
 

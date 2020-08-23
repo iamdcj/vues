@@ -9,9 +9,13 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/test/:name',
+    path: '/test',
     component: Test,
-    props: true
+    props: true,
+    children: [{
+      path: 'test',
+      component: Test
+    }]
   },
   {
     path: '/methods',
