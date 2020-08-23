@@ -1,7 +1,16 @@
 # Components
-Components are the building blocks of a Vue application; they are the various pieces of the user interface.
+Components are the building blocks of a Vue application; they make-up the various pieces of the user interface.
 
+Vue consist of three key sections;
+
+**Markup**
 Components contain a bunch of elements(markup) which are grouped together and exported for reuse throughout the application.
+
+**Scripts**
+
+**Styles**
+
+
 
 Components are:
 
