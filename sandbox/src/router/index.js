@@ -7,6 +7,9 @@ import Methods from '../components/Methods'
 
 Vue.use(VueRouter)
 
+
+const NotFound = () => <div>Not Found</div>
+
 const routes = [
   {
     path: '/test',
@@ -28,6 +31,11 @@ const routes = [
     path: '/directives',
     component: Directives
   },
+  {
+    path: 'not-found',
+    alias: '*',
+    component: NotFound
+  }
 ]
 
 export const router = new VueRouter({
