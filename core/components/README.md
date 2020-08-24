@@ -4,11 +4,13 @@ Components are the building blocks of a Vue application; they make-up the variou
 Vue consist of three key sections;
 
 **Markup**
-Components contain a bunch of elements(markup) which are grouped together and exported for reuse throughout the application.
+Vue components run with regular HTML out of the box, making templating natural.
 
 **Scripts**
+All props, data, and methods are attached the the component instance.
 
 **Styles**
+
 
 
 
