@@ -21,4 +21,4 @@ The creator essentially cherry-picked all of his favourite parts of popular fram
 ## Additional
 - State - vuex is a Redux-like store which is part of the core vue library.
 - Routing - vue ships with its own routing solution.
-- NuxtJS - a SSR framework built with vue at its core.
+- [NuxtJS](nuxt) - a SSR framework built with vue at its core.
