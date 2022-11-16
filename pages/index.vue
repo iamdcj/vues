@@ -1,5 +1,5 @@
 <template>
-  <Tutorial />
+  <BasicComponent />
 </template>
 
 <script lang="ts">
